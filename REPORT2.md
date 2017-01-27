@@ -1,5 +1,6 @@
 # App-Mook **Flawed** app for MOOC purposes 
-## Deploy On a Linux/macOS box: ```bash ./bin/deps.sh ./bin/setup.sh ./bin/start.sh dev # development ./bin/start.sh # production ./bin/status.sh ./bin/stop.sh ``` Or, via [Vagrant](https://www.vagrantup.com/) + [VirtualBox](https://www.virtualbox.org/) combo: ```bash # up: vagrant up # control: vagrant ssh -- ./app-mook/bin/status.sh vagrant ssh -- ./app-mook/bin/stop.sh vagrant ssh -- ./app-mook/bin/start.sh ``` Browse to http://localhost:5000/. 
+## Deploy 
+On a Linux/macOS box: ```bash ./bin/deps.sh ./bin/setup.sh ./bin/start.sh dev # development ./bin/start.sh # production ./bin/status.sh ./bin/stop.sh ``` Or, via [Vagrant](https://www.vagrantup.com/) + [VirtualBox](https://www.virtualbox.org/) combo: ```bash # up: vagrant up # control: vagrant ssh -- ./app-mook/bin/status.sh vagrant ssh -- ./app-mook/bin/stop.sh vagrant ssh -- ./app-mook/bin/start.sh ``` Browse to http://localhost:5000/. 
 
 ## Vulnerabilities 
 
